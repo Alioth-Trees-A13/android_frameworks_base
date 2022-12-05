@@ -3470,6 +3470,7 @@ public final class NotificationPanelViewController implements Dumpable {
 
     public void setSbDoubleTapToSleep(boolean isDoubleTapEnabled) {
         mIsSbDoubleTapEnabled = isDoubleTapEnabled;
+    }    
    
     private boolean isLandscape() {
         return mView.getContext().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
